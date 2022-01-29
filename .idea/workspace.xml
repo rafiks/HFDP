@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1d2e1cf-4f23-427a-bffa-015017385e12" name="Changes" comment="compiles and runs but I do not see a window.">
+    <list default="true" id="e1d2e1cf-4f23-427a-bffa-015017385e12" name="Changes" comment="not sure about workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/decorator/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/swingobserverex/SwingObserverExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/swingobserverex/SwingObserverExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="3-SwingObserverExample" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -105,7 +117,7 @@
       <recent name="$PROJECT_DIR$/src/com/devsphoto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwingObserverExample">
+  <component name="RunManager" selected="Application.StarbuzzCoffee">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.devsphoto.Main" />
       <module name="headfirstdesignpatterns" />
@@ -122,6 +134,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.devsphoto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.decorator.StarbuzzCoffee" />
+      <module name="headfirstdesignpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,14 +171,15 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MiniDuckSimulator" />
       <item itemvalue="Application.SwingObserverExample" />
+      <item itemvalue="Application.StarbuzzCoffee" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarbuzzCoffee" />
+        <item itemvalue="Application.MiniDuckSimulator" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SwingObserverExample" />
         <item itemvalue="Application.MiniDuckSimulator" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MiniDuckSimulator" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643419750761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="not sure about workspace.xml">
+      <created>1643427236840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643427236840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,17 +250,7 @@
     <MESSAGE value="Testing the duck code p19" />
     <MESSAGE value="Flyrocketpowered model duck" />
     <MESSAGE value="compiles and runs but I do not see a window." />
-    <option name="LAST_COMMIT_MESSAGE" value="compiles and runs but I do not see a window." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/swingobserverex/SwingObserverExample.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="not sure about workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="not sure about workspace.xml" />
   </component>
 </project>
