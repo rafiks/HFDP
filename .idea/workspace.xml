@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1d2e1cf-4f23-427a-bffa-015017385e12" name="Changes" comment="Flyrocketpowered model duck" />
+    <list default="true" id="e1d2e1cf-4f23-427a-bffa-015017385e12" name="Changes" comment="Weatherstation using Java.util.Observable/Observer">
+      <change afterPath="$PROJECT_DIR$/src/com/swingobserverex/SwingObserverExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Setting_Behaviour_dynamically" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +103,7 @@
       <recent name="$PROJECT_DIR$/src/com/devsphoto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MiniDuckSimulator">
+  <component name="RunManager" selected="Application.SwingObserverExample">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.devsphoto.Main" />
       <module name="headfirstdesignpatterns" />
@@ -124,17 +127,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwingObserverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swingobserverex.SwingObserverExample" />
+      <module name="headfirstdesignpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swingobserverex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="headfirstdesignpatterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="headfirstdesignpatterns" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MiniDuckSimulator" />
+      <item itemvalue="Application.SwingObserverExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwingObserverExample" />
         <item itemvalue="Application.MiniDuckSimulator" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MiniDuckSimulator" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
   </component>
@@ -191,5 +221,16 @@
     <MESSAGE value="Testing the duck code p19" />
     <MESSAGE value="Flyrocketpowered model duck" />
     <option name="LAST_COMMIT_MESSAGE" value="Flyrocketpowered model duck" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/swingobserverex/SwingObserverExample.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
