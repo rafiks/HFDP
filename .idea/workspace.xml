@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1d2e1cf-4f23-427a-bffa-015017385e12" name="Changes" comment="not sure about workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/Decaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/Soy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/StarbuzzCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/decorator/Whip.java" afterDir="false" />
+    <list default="true" id="e1d2e1cf-4f23-427a-bffa-015017385e12" name="Changes" comment="Decorator pattern Starbuzz Coffee">
+      <change afterPath="$PROJECT_DIR$/out/production/headfirstdesignpatterns/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Javaiodecorator/InputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Javaiodecorator/LowerCaseInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="4-Decorator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,17 +101,36 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production/headfirstdesignpatterns" />
+      <recent name="$PROJECT_DIR$/out/production/headfirstdesignpatterns/com" />
       <recent name="$PROJECT_DIR$/src/com/devsphoto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StarbuzzCoffee">
+  <component name="RunManager" selected="Application.InputTest">
+    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Javaiodecorator.InputTest" />
+      <module name="headfirstdesignpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Javaiodecorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.devsphoto.Main" />
       <module name="headfirstdesignpatterns" />
@@ -172,14 +185,15 @@
       <item itemvalue="Application.MiniDuckSimulator" />
       <item itemvalue="Application.SwingObserverExample" />
       <item itemvalue="Application.StarbuzzCoffee" />
+      <item itemvalue="Application.InputTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InputTest" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.MiniDuckSimulator" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.SwingObserverExample" />
-        <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643427236840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Decorator pattern Starbuzz Coffee">
+      <created>1643431546920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643431546920</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +272,7 @@
     <MESSAGE value="Flyrocketpowered model duck" />
     <MESSAGE value="compiles and runs but I do not see a window." />
     <MESSAGE value="not sure about workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="not sure about workspace.xml" />
+    <MESSAGE value="Decorator pattern Starbuzz Coffee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator pattern Starbuzz Coffee" />
   </component>
 </project>
